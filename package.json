@@ -23,6 +23,10 @@
     "engine-requirements.js"
   ],
   "scripts": {
+    "engines": {
+  "node": "20.x",
+  "npm": "10.x"
+    }
     "build:all": "tsc && typedoc",
     "build:docs": "typedoc",
     "build:tsc": "tsc",
